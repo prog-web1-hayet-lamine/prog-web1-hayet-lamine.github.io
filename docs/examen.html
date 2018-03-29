@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<form>
+
+<fieldset>
+<legend>Iformations personnelles</legend>
+<label>
+Nom Complet:<br>
+<input type="text" name="nom" value="Mohamed Ali">
+</label>
+<br>
+<label>
+Adresse E-mail:<br>
+<input type="mail" name="E-mail">
+</label>
+<br>
+<label>
+Confirmer adresse E-mail:<br>
+<input type="mail" name="nom" >
+</label>
+<br>
+</fieldset>
+
+<fieldset>
+<legend>Réservation</legend>
+<br>
+<label>
+Date d'arrivée<br>
+<input type="date" name="date" >
+</label>
+<br>
+<label>
+Nombre de nuitées(99? par nuit):<br>
+<input type="number" name="nombre" value="1">
+</label>
+<br>
+<label>
+Nombres d'invités(10?  par invité suppléméntaire):<br>
+<input type="number" name="nombre" value="1">
+</label>
+<br>
+Total:<br>
+99?
+<label>
+<br>
+Code de promotion:<br>
+<input type="password" name="mot de passe" >
+</label>
+<br>
+<input type="submit" value="EFFECTUER LA RESERVATION">
+</fieldset>
+
+</form>
+<style>
+form{margin-top:10px;
+margin-left:300px;
+width:450px;
+padding:15px;
+background-color:#6CC;
+font-family:Georgia, "Times New Roman", Times, serif ;
+font-size:16px;
+}
+legend{color:#00C;
+font-size:14px;
+font-weight:bold;
+}
+fieldset{border:2px solid #00F ;
+}
+label{font-style:italic;
+color:#06F;
+
+}
+input{background-color:#CCF;
+border: 2px #0CF;
+font-family:Georgia, "Times New Roman", "serif" ;
+font-size:12px;
+padding:7px;
+
+}
+form,fieldset,input{border-radius:12px;
+}
+input[type=submit]{
+background-color: #0CF;
+border:none;
+font-family: Georgia, "Times New Roman", Times, serif ;
+font-weight:bold;
+font-size:14px;
+color:#30C;
+box-shadow:0 1px 1px #000000;
+text-align:center;
+margin-left:150px;
+text-transform:uppercase;
+
+}
+input[type=submit]:hover{background-color:#099;
+box-shadow: 0 1px 1px #c0d576;
+cursor:pointer;
+}
+</style>
+</body>
+</html>
